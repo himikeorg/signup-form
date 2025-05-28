@@ -12,6 +12,10 @@ body {
     background-position: center;
 }
 
+.odin-img img{
+    height: 150px;
+}
+
 .heading-section {
     background-color: red;
     height: 34vh;
