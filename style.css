@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.img-section {
+    height: 100vh;
+    width: 35vw;
+    background-image: url(images/louis-paulin-T0qM8clFfiw-unsplash.jpg);
+    background-size: 100vh;
+    background-position: center;
+}
+
+.heading-section {
+    background-color: red;
+    height: 34vh;
+    width: 100%;
+}
+
+.form-section {
+    background-color: yellow;
+    height: 33vh;
+    width: 100%;
+}
+
+.submit-section {
+    background-color: green;
+    height: 33vh;
+    width: 100%;
+}
+
+.right {
+    flex-grow: 2;
+}
