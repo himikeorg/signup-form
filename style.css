@@ -1,8 +1,12 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     display: flex;
-    background-color
+    background-color: #f7f7f7;
 }
 
 .img-section {
@@ -18,13 +22,11 @@ body {
 }
 
 .heading-section {
-    background-color: red;
     height: 34vh;
     width: 100%;
 }
 
 .form-section {
-    background-color: yellow;
     height: 66vh;
     width: 100%;
 }
@@ -35,8 +37,9 @@ form {
 }
 
 .form-background {
-    background-color: blue;
+    background-color: white;
     padding-bottom: 20px;
+    box-shadow: lightgray 3px 3px 10px;
 }
 
 form div {
@@ -52,7 +55,8 @@ form button {
     width: 100%;
 }
 
-h2, button {
+h2, button, 
+.form-section p {
     margin: 20px 30px
 }
 
