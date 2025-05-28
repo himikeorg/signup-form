@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    background-color
 }
 
 .img-section {
@@ -24,14 +25,35 @@ body {
 
 .form-section {
     background-color: yellow;
-    height: 33vh;
+    height: 66vh;
     width: 100%;
 }
 
-.submit-section {
-    background-color: green;
-    height: 33vh;
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-background {
+    background-color: blue;
+    padding-bottom: 20px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px 30px;
+
+}
+
+form h2,
+form button {
     width: 100%;
+}
+
+h2, button {
+    margin: 20px 30px
 }
 
 .right {
