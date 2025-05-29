@@ -22,10 +22,37 @@ body {
     background-image: url(images/louis-paulin-T0qM8clFfiw-unsplash.jpg);
     background-size: 100vh;
     background-position: center;
+    padding-top: 130px;
 }
 
-.odin-img img{
-    height: 150px;
+.odin-img {
+    background-color: hsl(271 100% 1% / 0.45);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.odin-img img {
+    height: 110px;
+}
+
+.odin-img p {
+font-size: 5em;
+color: white;
+}
+
+.img-credit {
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+    color: white;
+    font-size: 14px;
+}
+
+.img-credit a {
+    color: white;
 }
 
 .heading-section {
