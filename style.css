@@ -22,7 +22,7 @@ body {
     background-image: url(images/louis-paulin-T0qM8clFfiw-unsplash.jpg);
     background-size: 100vh;
     background-position: center;
-    padding-top: 130px;
+    padding-top: 150px;
 }
 
 .odin-img {
@@ -56,9 +56,17 @@ color: white;
 }
 
 .heading-section {
-    height: 34vh;
+    height: 36vh;
     width: 100%;
+    padding: 100px 40px;
 }
+
+.heading-section p {
+    width: 80%;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
 
 .form-section {
     height: 66vh;
@@ -80,7 +88,7 @@ form div {
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin: 10px 30px;
+    margin: 10px 40px;
 
 }
 
@@ -89,15 +97,59 @@ form button {
     width: 100%;
 }
 
+label {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 5px 7px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+input:focus {
+    box-shadow: lightgray 3px 3px 6px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+
 h2, button, 
 .form-section p {
-    margin: 20px 30px
+    margin-left: 40px;
+}
+
+h2 {
+    margin: 20px 40px;
 }
 
 button {
+    background-color: #1d6c8e;
     font-family: inherit;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
 }
 
 .right {
     flex-grow: 2;
+}
+
+.form-section p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.form-section p a {
+    color: #1d6c8e;
+    text-decoration: none;
 }
